@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5DAD336E-3F49-4D00-94A5-408C98F718AE}</ProjectGuid>
+    <ProjectGuid>{307513F9-2A8F-4AFA-B6DE-F42A03F26FCF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BuilderRecursiveGenerics</RootNamespace>
-    <AssemblyName>BuilderRecursiveGenerics</AssemblyName>
+    <RootNamespace>FacetedBuilder</RootNamespace>
+    <AssemblyName>FacetedBuilder</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -42,12 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
-    <Compile Include="EmployeeBuilder.cs" />
-    <Compile Include="EmployeeBuilderDirector.cs" />
-    <Compile Include="EmployeeInfoBuilder.cs" />
-    <Compile Include="EmployeePositionBuilder.cs" />
-    <Compile Include="EmployeeSalaryBuilder.cs" />
+    <Compile Include="Car.cs" />
+    <Compile Include="CarAddressBuilder.cs" />
+    <Compile Include="CarBuilderFacade.cs" />
+    <Compile Include="CarInfoBuilder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

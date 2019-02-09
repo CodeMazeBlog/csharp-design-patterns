@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("BuilderRecursiveGenerics")]
+[assembly: AssemblyTitle("FacetedBuilder")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("BuilderRecursiveGenerics")]
+[assembly: AssemblyProduct("FacetedBuilder")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("5dad336e-3f49-4d00-94a5-408c98f718ae")]
+[assembly: Guid("307513f9-2a8f-4afa-b6de-f42a03f26fcf")]
 
 // Version information for an assembly consists of the following four values:
 //
