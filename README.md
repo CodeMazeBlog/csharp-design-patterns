@@ -1,2 +1,2 @@
-# Builder Design Pattern and Fluent Builder
-## https://code-maze.com/builder-design-pattern/
+# Fluent Builder Interface With Recursive Generics
+## https://code-maze.com/fluent-builder-recursive-generics/
