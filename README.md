@@ -1,2 +1,2 @@
-# Faceted Builder
-## https://code-maze.com/faceted-builder/
+# Factory Method
+## https://code-maze.com/factory-method/
