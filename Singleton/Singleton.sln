@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{A0EA52FF-D533-40CE-82B1-A6C3A49A712C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{40C958EA-7E86-4A0B-A755-13DB6336A1E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A0EA52FF-D533-40CE-82B1-A6C3A49A712C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A0EA52FF-D533-40CE-82B1-A6C3A49A712C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A0EA52FF-D533-40CE-82B1-A6C3A49A712C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A0EA52FF-D533-40CE-82B1-A6C3A49A712C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40C958EA-7E86-4A0B-A755-13DB6336A1E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C958EA-7E86-4A0B-A755-13DB6336A1E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C958EA-7E86-4A0B-A755-13DB6336A1E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C958EA-7E86-4A0B-A755-13DB6336A1E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {9D94DC77-556A-4CAD-921B-A6023DD5862D}
+		SolutionGuid = {096AC226-EA29-4DBA-86FB-6A7B7FC36DB9}
 	EndGlobalSection
 EndGlobal

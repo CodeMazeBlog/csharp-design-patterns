@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A0EA52FF-D533-40CE-82B1-A6C3A49A712C}</ProjectGuid>
+    <ProjectGuid>{40C958EA-7E86-4A0B-A755-13DB6336A1E7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FactoryMethod</RootNamespace>
-    <AssemblyName>FactoryMethod</AssemblyName>
+    <RootNamespace>Singleton</RootNamespace>
+    <AssemblyName>Singleton</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,16 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Actions.cs" />
-    <Compile Include="AirConditioner.cs" />
-    <Compile Include="AirConditionerFactory.cs" />
-    <Compile Include="Cooling.cs" />
-    <Compile Include="CoolingFactory.cs" />
-    <Compile Include="IAirConditioner.cs" />
+    <Compile Include="IDatabase.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Warming.cs" />
-    <Compile Include="WarmingFactory.cs" />
+    <Compile Include="SingletonDataContainer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

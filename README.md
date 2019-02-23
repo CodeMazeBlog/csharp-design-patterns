@@ -1,2 +1,2 @@
-# Factory Method
-## https://code-maze.com/factory-method/
+# Singleton Design Pattern
+## https://code-maze.com/singleton/

@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FactoryMethod
+namespace Singleton
 {
-    public interface IAirConditioner
+    public interface IDatabase
     {
-        void Operate();
+        int GetPopulation(string name);
     }
 }
