@@ -49,6 +49,7 @@
     <Compile Include="IXmlToJson.cs" />
     <Compile Include="JsonConverter.cs" />
     <Compile Include="Manufacturer.cs" />
+    <Compile Include="ManufacturerDataProvider.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XmlConverter.cs" />
