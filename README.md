@@ -1,3 +1,3 @@
-# C# Design Patterns - Adapter 
+# C# Design Patterns - Composite
 
-## https://code-maze.com/adapter/
+## https://code-maze.com/composite/

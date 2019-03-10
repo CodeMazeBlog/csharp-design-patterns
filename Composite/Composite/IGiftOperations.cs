@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AdapterPattern
+namespace Composite
 {
-    public interface IXmlToJson
+    public interface IGiftOperations
     {
-        void ConvertXmlToJson();
+        void Add(GiftBase gift);
+        void Remove(GiftBase gift);
     }
 }
