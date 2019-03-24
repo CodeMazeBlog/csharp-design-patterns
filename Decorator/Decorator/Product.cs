@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Composite
+namespace Decorator
 {
-    public interface IGiftOperations
+    public class Product
     {
-        void Add(GiftBase gift);
-        void Remove(GiftBase gift);
+        public string Name { get; set; }
+        public int Price { get; set; }
     }
 }

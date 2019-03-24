@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Composit")]
+[assembly: AssemblyTitle("Decorator")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Composit")]
+[assembly: AssemblyProduct("Decorator")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("aca60d4a-726f-426f-b1c9-ba49a67b61c2")]
+[assembly: Guid("8102a4bb-3397-4dd2-bd5c-6b4c4edec4e9")]
 
 // Version information for an assembly consists of the following four values:
 //
