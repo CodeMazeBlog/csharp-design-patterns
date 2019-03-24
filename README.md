@@ -1,3 +1,3 @@
-# C# Design Patterns - Composite
+# C# Design Patterns - Decorator
 
-## https://code-maze.com/composite/
+## https://code-maze.com/decorator/
