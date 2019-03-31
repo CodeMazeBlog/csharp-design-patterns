@@ -1,3 +1,3 @@
-# C# Design Patterns - Decorator
+# C# Design Patterns - Command
 
-## https://code-maze.com/decorator/
+## https://code-maze.com/command/

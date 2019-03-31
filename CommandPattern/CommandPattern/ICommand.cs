@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Decorator
+namespace CommandPattern
 {
-    public class Product
+    public interface ICommand
     {
-        public string Name { get; set; }
-        public int Price { get; set; }
+        void ExecuteAction();
+        void UndoAction();
     }
 }
