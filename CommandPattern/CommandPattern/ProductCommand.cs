@@ -31,7 +31,6 @@ namespace CommandPattern
             else
             {
                 IsCommandExecuted = _product.DecreasePrice(_amount);
-                _product.DecreasePrice(_amount);
             }
         }
 
