@@ -1,3 +1,3 @@
-# C# Design Patterns - Command
+# C# Design Patterns - Strategy Design Pattern
 
-## https://code-maze.com/command/
+## https://code-maze.com/strategy/

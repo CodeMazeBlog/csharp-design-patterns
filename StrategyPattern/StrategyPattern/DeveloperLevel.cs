@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CommandPattern
+namespace StrategyPattern
 {
-    public interface ICommand
+    public enum DeveloperLevel
     {
-        void ExecuteAction();
-        void UndoAction();
+        Senior,
+        Junior
     }
 }
