@@ -4,12 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{307513F9-2A8F-4AFA-B6DE-F42A03F26FCF}</ProjectGuid>
+    <ProjectGuid>{164E4C1F-705B-4A65-9174-F9FA48738B71}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FacetedBuilder</RootNamespace>
-    <AssemblyName>FacetedBuilder</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <RootNamespace>FacadePattern</RootNamespace>
+    <AssemblyName>FacadePattern</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -42,12 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Car.cs" />
-    <Compile Include="CarAddressBuilder.cs" />
-    <Compile Include="CarBuilderFacade.cs" />
-    <Compile Include="CarInfoBuilder.cs" />
+    <Compile Include="Facade.cs" />
+    <Compile Include="OnlineRestaurant.cs" />
+    <Compile Include="Order.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShippingService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
