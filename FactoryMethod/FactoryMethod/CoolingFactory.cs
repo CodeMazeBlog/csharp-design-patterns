@@ -8,6 +8,6 @@ namespace FactoryMethod
 {
     public class CoolingFactory : AirConditionerFactory
     {
-        public override IAirConditioner Create(double temperature) => new Cooling(temperature);
+        public override IAirConditioner Create(double temperature) => new CoolingManager(temperature);
     }
 }

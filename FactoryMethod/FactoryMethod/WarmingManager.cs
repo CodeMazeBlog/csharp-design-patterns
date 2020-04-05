@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod
 {
-    public class Cooling : IAirConditioner
+    public class WarmingManager : IAirConditioner
     {
         private readonly double _temperature;
 
-        public Cooling(double temperature)
+        public WarmingManager(double temperature)
         {
             _temperature = temperature;
         }
 
         public void Operate()
         {
-            Console.WriteLine($"Cooling the room to the required temperature of {_temperature} degrees");
+            Console.WriteLine($"Warming the room to the required temperature of {_temperature} degrees.");
         }
     }
 }
