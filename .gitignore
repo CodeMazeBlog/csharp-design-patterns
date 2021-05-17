@@ -1,0 +1,16 @@
+/AdapterPattern/.vs
+/AdapterPattern/AdapterPattern/obj
+/AdapterPattern/AdapterPattern/bin
+/AdapterPattern/packages
+/Composite/.vs
+/Composite/Composite/obj
+/Composite/Composite/bin
+/Decorator/.vs
+/Decorator/Decorator/obj
+/Decorator/Decorator/bin
+/CommandPattern/.vs
+/CommandPattern/CommandPattern/bin
+/CommandPattern/CommandPattern/obj
+/StrategyPattern/.vs
+/StrategyPattern/StrategyPattern/obj
+/StrategyPattern/StrategyPattern/bin

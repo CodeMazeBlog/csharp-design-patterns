@@ -1,2 +1,3 @@
-# C# Design Patterns 
-### This repo contains the branches which lead to concrete design patterns. To get to the concrete pattern, please select it from the branches dropdown
+# C# Design Patterns - Strategy Design Pattern
+
+## https://code-maze.com/strategy/
